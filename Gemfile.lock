@@ -81,9 +81,6 @@ GEM
     bindex (0.8.1)
     bootsnap (1.18.4)
       msgpack (~> 1.2)
-    bootstrap (5.3.3)
-      autoprefixer-rails (>= 9.1.0)
-      popper_js (>= 2.11.8, < 3)
     brakeman (6.2.1)
       racc
     builder (3.3.0)
@@ -109,34 +106,10 @@ GEM
     drb (2.2.1)
     erubi (1.13.0)
     execjs (2.9.1)
-    ffi (1.17.0-aarch64-linux-gnu)
-    ffi (1.17.0-aarch64-linux-musl)
-    ffi (1.17.0-arm-linux-gnu)
-    ffi (1.17.0-arm-linux-musl)
     ffi (1.17.0-arm64-darwin)
-    ffi (1.17.0-x86-linux-gnu)
-    ffi (1.17.0-x86-linux-musl)
-    ffi (1.17.0-x86_64-darwin)
-    ffi (1.17.0-x86_64-linux-gnu)
-    ffi (1.17.0-x86_64-linux-musl)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    google-protobuf (4.28.0)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.28.0-aarch64-linux)
-      bigdecimal
-      rake (>= 13)
     google-protobuf (4.28.0-arm64-darwin)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.28.0-x86-linux)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.28.0-x86_64-darwin)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.28.0-x86_64-linux)
       bigdecimal
       rake (>= 13)
     i18n (1.14.5)
@@ -198,7 +171,6 @@ GEM
     parser (3.3.4.2)
       ast (~> 2.4.1)
       racc
-    popper_js (2.11.8)
     psych (5.1.2)
       stringio
     public_suffix (6.0.1)
@@ -281,25 +253,7 @@ GEM
       rubocop-rails
     ruby-progressbar (1.13.0)
     rubyzip (2.3.2)
-    sass-embedded (1.77.8-aarch64-linux-gnu)
-      google-protobuf (~> 4.26)
-    sass-embedded (1.77.8-aarch64-linux-musl)
-      google-protobuf (~> 4.26)
-    sass-embedded (1.77.8-arm-linux-gnueabihf)
-      google-protobuf (~> 4.26)
-    sass-embedded (1.77.8-arm-linux-musleabihf)
-      google-protobuf (~> 4.26)
     sass-embedded (1.77.8-arm64-darwin)
-      google-protobuf (~> 4.26)
-    sass-embedded (1.77.8-x86-linux-gnu)
-      google-protobuf (~> 4.26)
-    sass-embedded (1.77.8-x86-linux-musl)
-      google-protobuf (~> 4.26)
-    sass-embedded (1.77.8-x86_64-darwin)
-      google-protobuf (~> 4.26)
-    sass-embedded (1.77.8-x86_64-linux-gnu)
-      google-protobuf (~> 4.26)
-    sass-embedded (1.77.8-x86_64-linux-musl)
       google-protobuf (~> 4.26)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -381,7 +335,6 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   bootsnap
-  bootstrap (~> 5.3.3)
   brakeman
   capybara
   dartsass-rails
