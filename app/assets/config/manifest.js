@@ -4,3 +4,5 @@
 //= link_tree ../../../vendor/javascript .js
 //= link bootstrap.min.js
 //= link popper.js
+//= link bootstrap/dist/js/bootstrap.bundle.min.js
+//= link bootstrap/dist/js/bootstrap.js
